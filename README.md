@@ -17,5 +17,13 @@ you also have to knowledge about redis and install the redis and setup path in y
 that will easily get from browser.
 
 ## install the package in requirements.txt
-``bash``hello``
+  pip install -r requirements.txt
+
+# run this command as well 
+ python manage.py makemigrations
+ python manage.py migrate
+
+run python manage.py  runserver in one terminal
+and run another command in another terminal
+"celery -A project.celery worker --pool=solo -l info"
 
