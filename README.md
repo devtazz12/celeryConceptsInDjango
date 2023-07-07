@@ -13,6 +13,6 @@
 # In this git the basic concept of celery is shown
 
 ## To run this in vscode or any code editor you must have to first open the two terminal in any code editor
-
-
+you also have to knowledge about redis and install the redis and setup path in your computer with it's official website
+that will easily get from browser.
 
