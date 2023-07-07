@@ -16,3 +16,6 @@
 you also have to knowledge about redis and install the redis and setup path in your computer with it's official website
 that will easily get from browser.
 
+## install the package in requirements.txt
+``bash``hello``
+
