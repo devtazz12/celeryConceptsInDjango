@@ -20,10 +20,18 @@ that will easily get from browser.
   pip install -r requirements.txt
 
 # run this command as well 
- python manage.py makemigrations
- python manage.py migrate
+ ```bash
+python manage.py makemigrations
+```
+ ```bash
+python manage.py migrate
+```
 
-run python manage.py  runserver in one terminal
+run 
+```bash
+python manage.py  runserver
+```in one terminal
 and run another command in another terminal
-"celery -A project.celery worker --pool=solo -l info"
-
+```bash
+celery -A project.celery worker --pool=solo -l info
+```
