@@ -29,9 +29,9 @@ python manage.py migrate
 
 run 
 ```bash
-python manage.py  runserver
-```in one terminal
-and run another command in another terminal
+python manage.py  runserver in one terminal
+```
+and run another command in another terminal 
 ```bash
 celery -A project.celery worker --pool=solo -l info
 ```
